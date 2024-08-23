@@ -1,4 +1,4 @@
-package binance_connector
+package binance_futures_connector
 
 const Name = "binance-connector-go"
 

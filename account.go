@@ -1,4 +1,4 @@
-package binance_connector
+package binance_futures_connector
 
 import (
 	"context"
