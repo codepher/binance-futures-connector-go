@@ -1,4 +1,4 @@
-module github.com/binance/binance-connector-go
+module github.com/codepher/binance-futures-connector-go
 
 go 1.22
 

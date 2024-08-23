@@ -14,8 +14,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/binance/binance-connector-go/handlers"
 	"github.com/bitly/go-simplejson"
+	"github.com/codepher/binance-futures-connector-go/handlers"
 )
 
 // TimeInForceType define time in force type of order
@@ -67,7 +67,7 @@ func (c *Client) debug(format string, v ...interface{}) {
 
 // Create client function for initialising new Binance client
 func NewClient(apiKey string, secretKey string, baseURL ...string) *Client {
-	url := "https://api.binance.com"
+	url := "https://fapi.binance.com"
 
 	if len(baseURL) > 0 {
 		url = baseURL[0]
